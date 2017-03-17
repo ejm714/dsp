@@ -19,19 +19,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-* **pwd** - show current working directory path
-* **cd** - change working directory
-* **mkdir** - create a directory
-* **rmdir** - delete a directory
-* **touch** - creates new file (ex. touch test.txt)
-* **rm** - delete a file
-* **mv** - rename a file (can also be used to move a file)
-* **cp** - copying a file from one directory to another
-* **m`*`** - selects all files starting with m (or whichever letter is specified)
-* **`*`** - selects all files in working directory
-* **ls -a** - lists hidden files and directories (i.e. those that start with a dot)
-* **ls -t** - orders files and directories by time modified
-* **cd ..** - moves up one level in the directory
+> * **pwd** - show current working directory path
+> * **cd** - change working directory
+> * **mkdir** - create a directory
+> * **rmdir** - delete a directory
+> * **touch** - creates new file (ex. touch test.txt)
+> * **rm** - delete a file
+> * **mv** - rename a file (can also be used to move a file)
+> * **cp** - copying a file from one directory to another
+> * **m`*`** - selects all files starting with m (or whichever letter is specified)
+> * **`*`** - selects all files in working directory
+> * **ls -a** - lists hidden files and directories (i.e. those that start with a dot)
+> * **ls -t** - orders files and directories by time modified
+> * **cd ..** - moves up one level in the directory
 
 
 ---
@@ -47,7 +47,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> - `ls` - lists files and directories
+> - `ls -a` - displays all files 
+> - `ls -l`  - displays long format listing
+> - `ls -lh` - print human readable sizes
+> - `ls -lah` - displays all files in long format in human readable size
+> - `ls -t` - displays files based on timestamp (newest first)
+> - `ls -Glp`- displays files without group names but with /
 
 ---
 
@@ -55,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> - `ls -d` - displays only directories
+> - `ls -m`- displays names as comma-separated list
+> - `ls -R` - displays subdirectories as well
+> - `ls -r` - displays files in reverse order
+> - `ls -1` - displays each entry on a line
 
 ---
 
