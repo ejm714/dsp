@@ -22,7 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * **pwd** - show current working directory path
 * **cd** - change working directory
 * **mkdir** - create a directory
-* **rm -r** - delete a directory
+* **rmdir** - delete a directory
 * **touch** - creates new file (ex. touch test.txt)
 * **rm** - delete a file
 * **mv** - rename a file (can also be used to move a file)
