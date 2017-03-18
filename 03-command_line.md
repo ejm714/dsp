@@ -27,6 +27,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > * **rm** - delete a file
 > * **mv** - rename a file (can also be used to move a file)
 > * **cp** - copying a file from one directory to another
+> * **cat** - print the whole file
+> * **grep** - find things inside files
 > * **m`*`** - selects all files starting with m (or whichever letter is specified)
 > * **`*`** - selects all files in working directory
 > * **ls -a** - lists hidden files and directories (i.e. those that start with a dot)
