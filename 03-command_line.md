@@ -75,7 +75,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> “Xargs builds and executes command lines from standard input. Xargs reads items from the standard input, delimited by blanks, and executes the command one or more times with any initial-arguments followed by items read from standard input.” 
+>  
+> For example, xargs can be used to find and delete the text files in or below the /dec directory (the `–print0` ensures spaces and newlines don't cause problems).  
+>  
+> `find /home/ccuser/workspace/blog/2014/dec –name “*.txt” –type f –print0 | xargs -0 /bin/rm -f`
 
  
 
