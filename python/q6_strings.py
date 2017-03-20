@@ -130,8 +130,14 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
-
+    #raise NotImplementedError
+    x = s.index('not')
+    y = s.find('bad')
+    if y > x:
+        good_s = s[:x] + 'good' + s[y+3:]
+        return good_s
+    else:
+        return s  
 
 def front_back(a, b):
     """
