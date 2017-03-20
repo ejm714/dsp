@@ -19,21 +19,21 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> * **pwd** - show current working directory path
-> * **cd** - change working directory
-> * **mkdir** - create a directory
-> * **rmdir** - delete a directory
-> * **touch** - creates new file (ex. touch test.txt)
-> * **rm** - delete a file
-> * **mv** - rename a file (can also be used to move a file)
-> * **cp** - copy a file from one directory to another
-> * **cat** - print the whole file
-> * **grep** - find things inside files
-> * **m`*`** - select all files starting with m (or whichever letter is specified)
-> * **`*`** - select all files in working directory
-> * **ls -a** - list hidden files and directories (i.e. those that start with a dot)
-> * **ls -t** - order files and directories by time modified
-> * **cd ..** - move up one level in the directory
+> * `pwd` - show current working directory path
+> * `cd` - change working directory
+> * `mkdir` - create a directory
+> * `rmdir` - delete a directory
+> * `touch` - creates new file (ex. touch test.txt)
+> * `rm` - delete a file
+> * `mv` - rename a file (can also be used to move a file)
+> * `cp` - copy a file from one directory to another
+> * `cat` - print the whole file
+> * `grep` - find things inside files
+> * `m*` - select all files starting with m (or whichever letter is specified)
+> * `*` - select all files in working directory
+> * `ls -a` - list hidden files and directories (i.e. those that start with a dot)
+> * `ls -t` - order files and directories by time modified
+> * `cd ..` - move up one level in the directory
 
 
 ---
