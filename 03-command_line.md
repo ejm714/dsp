@@ -26,14 +26,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > * **touch** - creates new file (ex. touch test.txt)
 > * **rm** - delete a file
 > * **mv** - rename a file (can also be used to move a file)
-> * **cp** - copying a file from one directory to another
+> * **cp** - copy a file from one directory to another
 > * **cat** - print the whole file
 > * **grep** - find things inside files
-> * **m`*`** - selects all files starting with m (or whichever letter is specified)
-> * **`*`** - selects all files in working directory
-> * **ls -a** - lists hidden files and directories (i.e. those that start with a dot)
-> * **ls -t** - orders files and directories by time modified
-> * **cd ..** - moves up one level in the directory
+> * **m`*`** - select all files starting with m (or whichever letter is specified)
+> * **`*`** - select all files in working directory
+> * **ls -a** - list hidden files and directories (i.e. those that start with a dot)
+> * **ls -t** - order files and directories by time modified
+> * **cd ..** - move up one level in the directory
 
 
 ---
@@ -52,10 +52,10 @@ What do the following commands do:
 > - `ls` - lists files and directories
 > - `ls -a` - displays all files 
 > - `ls -l`  - displays long format listing
-> - `ls -lh` - print human readable sizes
+> - `ls -lh` - displays files in long format in human readable sizes
 > - `ls -lah` - displays all files in long format in human readable size
 > - `ls -t` - displays files based on timestamp (newest first)
-> - `ls -Glp`- displays files without group names but with /
+> - `ls -Glp`- displays files in long format without group names but with /
 
 ---
 
