@@ -31,8 +31,8 @@ How are Python lists and sets similar and different? Give examples of using both
 
 ```python
 # Intersection in sets
-healthy_food = set(['brocolli', 'spinach', 'quinoa', 'green beans'])
-food_i_like = set(['cheese', 'green beans', 'peanut butter'])
+healthy_food = Set(['brocolli', 'spinach', 'quinoa', 'green beans'])
+food_i_like = Set(['cheese', 'green beans', 'peanut butter'])
 liked_healthy = healthy_food & food_i_like
 'quinoa' in food_i_like
 
