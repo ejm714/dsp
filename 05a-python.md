@@ -68,7 +68,36 @@ sorted(colleagues_offices, key=lambda tup: tup[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions are an elegant way to create and define lists. It works as a substitute for map or filter with a lambda function. List comprehensions are faster than for loops, but differences between list comprehensions and map/filter seem marginal. In terms of ‘pythonic’ style, list comprehensions are preferred as they are typically easier to read.
+
+```python
+# Map applies a function to all the items in the input. This can be done with list comprehensions.
+
+days = ['Monday', 'Tuesday', 'Wednesday', 'thursday', 'Friday']
+
+def all_caps_lc(l):
+    return [w.upper() for w in l]
+
+def all_caps_map(l):
+    return map(lambda x: x.upper(), days)
+
+# Filter creates a list of elements for which a function returns true. This can be done with list comprehensions as well.
+
+numbers = [1, 3, 5, 2, 6, 12]
+
+def odds_only_lc(l):
+    return [n for n in l if n % 2 != 0]
+
+def odds_only_filter(l):
+    return filter(lambda x: x % 2 != 0, l)
+
+# Set and dictionary comprehensions work as well
+
+s = {x*x for x in range(5)}
+
+d = {x: x+y for x in range(4) for y in range(4) }
+```
+
 
 ---
 
