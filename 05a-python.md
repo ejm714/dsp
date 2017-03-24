@@ -90,7 +90,6 @@ def odds_only_filter(l):
     return filter(lambda x: x % 2 != 0, l)
 
 # Set and dictionary comprehensions work as well
-
 s = {x*x for x in range(5)}
 
 d = {x: x+y for x in range(4) for y in range(4) }
