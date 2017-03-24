@@ -72,7 +72,6 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 ```python
 # Map applies a function to all the items in the input. This can be done with list comprehensions.
-
 days = ['Monday', 'Tuesday', 'Wednesday', 'thursday', 'Friday']
 
 def all_caps_lc(l):
@@ -81,8 +80,7 @@ def all_caps_lc(l):
 def all_caps_map(l):
     return map(lambda x: x.upper(), days)
 
-# Filter creates a list of elements for which a function returns true. This can be done with list comprehensions as well.
-
+# Filter creates a list of elements for which a function returns true. This can be done with list comprehensions too.
 numbers = [1, 3, 5, 2, 6, 12]
 
 def odds_only_lc(l):
