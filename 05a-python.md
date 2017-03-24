@@ -30,7 +30,7 @@ How are Python lists and sets similar and different? Give examples of using both
 >> Since sets do not support indexing (as they are unordered), they use a hash lookup. This makes sets faster than lists in determining if an object is present in the set. Sets are also often used for operations like intersection, union, and difference.
 
 ```python
-# Intersection in sets
+# Intersection and membership testing in sets
 healthy_food = Set(['brocolli', 'spinach', 'quinoa', 'green beans'])
 food_i_like = Set(['cheese', 'green beans', 'peanut butter'])
 liked_healthy = healthy_food & food_i_like
