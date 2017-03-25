@@ -5,4 +5,5 @@ print(df.columns.tolist())
 df.columns = df.columns.str.strip()
 degrees = df['degree'].str.strip().str.replace('.', '')
 counts = Counter((',').join(degrees).replace(' ', ',').split(','))
+print counts
 len(counts)
