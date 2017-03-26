@@ -10,7 +10,6 @@ degree_counts = Counter(degrees.sum())
 print degree_counts
 len(degree_counts)
 
-
 ## Q2
 title = df['title'].str.replace(' is ', ' of ')
 title_counts = title.value_counts()
@@ -23,3 +22,8 @@ print emails
 txt_file = open('q3.txt', 'w')
 txt_file.write('%s' % emails)
 txt_file.close()
+
+## Q4
+unique_domains = df['email'].str.split('@').str[1].drop_duplicates().tolist()
+print unique_domains
+len(unique_domains)
