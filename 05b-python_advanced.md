@@ -77,9 +77,9 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
               'Li': [['Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], ['Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], ['Ph.D.', 'Professor', 'hongzhe@upenn.edu']]}
 ```
 Print the first 3 key and value pairs of the dictionary:
-
->> `{'Putt': [['PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']], 'Feng': [['Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']], 'Bilker': [['Ph.D.', 'Professor', 'warren@upenn.edu']]}`
-
+```python
+{'Putt': [['PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']], 'Feng': [['Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']], 'Bilker': [['Ph.D.', 'Professor', 'warren@upenn.edu']]}`
+```
 
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
