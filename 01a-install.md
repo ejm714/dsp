@@ -54,7 +54,12 @@ Did you install Python 2 or 3? Why?
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> In the command line, ```python -V``` will return the version info.
+>> In the command line, ```python -V``` will print the version info. In python,  
+```
+import sys 
+print (sys.version)
+```
+will print version info.
 
  
 
