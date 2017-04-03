@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3. I learned in 2.7 because that's what the tutorial I used was written in. But I decided to switch to Python 3 when I got my Mac since it's recommended and encouraged for the bootcamp (note: prework completed before April 2nd was done in Python 2.7).
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In the command line, ```python -V``` will return the version info.
 
  
 
