@@ -89,5 +89,5 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> Atom. I chose this as it was recommended by a friend. I like that it's easy to use out of the box but also customizable. There are many themes and packages that can be installed, and all options in atom can be accessed by a simple command+shift+p. I customized atom by adding a terminal window at the bottom. Command / toggles lines and command l selects the current line. More useful keyboard shortcuts are here: https://blog.bugsnag.com/atom-editor-cheat-sheet/.
+>> Atom. I chose this as it was recommended by a friend. I like that it's easy to use out of the box but also customizable. There are many themes and packages that can be installed, and all options in atom can be accessed by a simple command+shift+p. I customized atom by adding a terminal window at the bottom. Command+/ toggles lines and command+l selects the current line. More useful keyboard shortcuts are here: https://blog.bugsnag.com/atom-editor-cheat-sheet/.
  
