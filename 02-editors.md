@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Vi. I found it most intuitive - I liked the insert vs. command mode distinction and found the commands to save and exit easy to remember. 
 
 --
 
