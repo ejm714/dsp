@@ -13,6 +13,8 @@ import nsfg
 import first
 import thinkstats2
 import thinkplot
+import matplotlib
+import matplotlib.pyplot as plt
 ```
 
 
@@ -22,7 +24,7 @@ df = nsfg.ReadFemResp()
 
 
 ```python
-# inspect the data 
+# inspect the data
 df.numkdhh.head(4)
 ```
 
@@ -37,7 +39,7 @@ df.numkdhh.head(4)
 
 
 
-**Problem**: Calculate the actual distribution for the number of children under 18 in the household. Then calculate the biased distribution that we would get if we surveyed children and asked them how many children are in their household. 
+**Problem**: Calculate the actual distribution for the number of children under 18 in the household. Then calculate the biased distribution that we would get if we surveyed children and asked them how many children are in their household.
 
 **How solved**: The biased sample arises from the fact that families with more children are more likely to be in your sample and families with no children will be absent from the sample -- hence to calculate this I multiply the actual probabilities associated with each number of kids by the number of children who observe that number. I then present the actual and biased means based on the pmfs.
 
@@ -74,10 +76,12 @@ pmf = thinkstats2.Pmf(d, label='actual')
 # plot actual
 thinkplot.Pmfs([pmf], align='left')
 thinkplot.Config(xlablel = 'Number of children', ylabel = 'PMF')
+plt.savefig('actual.png')
+plt.close()
 ```
 
 
-![png](3-1_EM_files/3-1_EM_10_0.png)
+![png](actual.png)
 
 
 ### Biased
@@ -106,10 +110,12 @@ biased_pmf = thinkstats2.Pmf(nd, label='biased')
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased_pmf], align='left')
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
+plt.savefig('both.png')
+plt.close()
 ```
 
 
-![png](3-1_EM_files/3-1_EM_14_0.png)
+![png]('both.png')
 
 
 ### Means
@@ -131,4 +137,3 @@ print('Biased mean is %f' % Mean(nd))
 
     Actual mean is 1.024205
     Biased mean is 2.403679
-
