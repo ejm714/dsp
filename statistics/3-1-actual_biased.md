@@ -3,11 +3,6 @@
 
 
 ```python
-%matplotlib inline
-```
-
-
-```python
 import numpy as np
 import nsfg
 import first
@@ -59,14 +54,6 @@ for a in x.index:
 sum(d.values())
 ```
 
-
-
-
-    1.0
-
-
-
-
 ```python
 pmf = thinkstats2.Pmf(d, label='actual')
 ```
@@ -114,8 +101,7 @@ plt.savefig('both.png')
 plt.close()
 ```
 
-
-![png]('both.png')
+![png](both.png)
 
 
 ### Means
