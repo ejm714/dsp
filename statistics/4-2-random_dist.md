@@ -22,7 +22,7 @@ for key in C: C[key] /=total
 
 plt.bar(list(C.keys()), C.values(), width=.001)
 plt.ylabel('PMF')
-plt.xlabel('Random values')
+plt.xlabel('Random variate')
 plt.title('PMF of 1,000 random values')
 plt.savefig('PMF1000.png')
 plt.close()
@@ -34,6 +34,17 @@ plt.close()
 
 ```python
 
-
+sorted_data = np.sort(x)
+yvals = np.arange(1,len(sorted_data)+1)/float(len(sorted_data))
+plt.step(sorted_data, yvals)
+plt.ylabel('CDF')
+plt.xlabel('Random variate')
+plt.title('CDF of 1,000 random values')
+plt.savefig('CDF1000.png')
+plt.close()
 
 ```
+
+![png](CDF1000.png)
+
+Yes the distribution is uniform. All values have an equal probability and thus the CDF is a straight line.
