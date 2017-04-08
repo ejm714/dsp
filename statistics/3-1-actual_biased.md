@@ -53,6 +53,7 @@ for a in x.index:
 # confirming probabilities sum to 1
 sum(d.values())
 ```
+1
 
 ```python
 pmf = thinkstats2.Pmf(d, label='actual')
@@ -121,5 +122,5 @@ print('Actual mean is %f' % Mean(d))
 print('Biased mean is %f' % Mean(nd))
 ```
 
-    Actual mean is 1.024205
-    Biased mean is 2.403679
+Actual mean is 1.024205
+Biased mean is 2.403679
